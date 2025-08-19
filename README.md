@@ -1,4 +1,4 @@
-# BDInventario Autopartes 💻⚙️
+# BDInventario Autopartes 💻🚘
 
 Base de datos relacional para gestionar inventario, pedidos y facturas de una fábrica de autopartes. Simula procesos típicos de una empresa industrial y tecnológica: control de stock, compras a proveedores y ventas a clientes.
 
