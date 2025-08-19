@@ -1,7 +1,7 @@
 USE BDInventario
 GO
 
--- Artículos con stock bajo
+-- ArtÃ­culos con stock bajo
 SELECT Descripcion_Articulo, Stock_Articulo
 FROM Articulos
 WHERE Stock_Articulo < 30;
@@ -17,4 +17,5 @@ GROUP BY C.Nombre_Cliente;
 SELECT P.Codigo_Pedido, PR.Nombre_Proveedor, P.Fecha_Pedido
 FROM Pedidos P
 INNER JOIN Proveedores PR ON P.Codigo_Proveedor_Pedido = PR.Codigo_Proveedor
-WHERE P.Estado_Pedido = 'Completado';
+
+WHERE P.Estado_Pedido = 'Pendiente';
